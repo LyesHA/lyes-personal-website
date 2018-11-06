@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Calculatrice avec VbScript</title>
+
+    <!-- css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/calculatrice.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <script language="VBScript" type="text/vbscript" src="vbscript/vbcalculatrice.vbs" ></script>
+
+</head>
+<!---To run this calculator you must run it on Internet Explorer 10 or older otherwise it won't work,
+        because VBScript does not support Google Chrome or Firefox --->
+
+<body>
+    
+    <form name="calcform">
+        <table class="tbcalculatrice">
+            <tr>
+                <td colspan="4">
+                    <input class="txtResult" type="text" readonly="readonly" name="calcResultat" id="calcResultat">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="btncalculatrice0" type="button" value="C" onclick="reset()">
+                </td>
+                <td>
+                    <input class="btncalculatrice" type="button" value="x²" onclick="squareCalc()">
+                </td>
+                <td>
+                    <input class="btncalculatriceoper" type="button" value="÷" onclick="Operator('/')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="btncalculatrice" type="button" value="7" onclick="numInsert(7)">
+                </td>
+                <td>
+                    <input class="btncalculatrice" type="button" value="8" onclick="numInsert(8)">
+                </td>
+                <td>
+                    <input class="btncalculatrice" type="button" value="9" onclick="numInsert(9)">
+                </td>
+                <td>
+                    <input class="btncalculatriceoper" type="button" value="×" onclick="Operator('*')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="btncalculatrice" type="button" value="4" onclick="numInsert(4)">
+                </td>
+                <td>
+                    <input class="btncalculatrice" type="button" value="5" onclick="numInsert(5)">
+                </td>
+                <td>
+                    <input class="btncalculatrice" type="button" value="6" onclick="numInsert(6)">
+                </td>
+                <td>
+                    <input class="btncalculatriceoper" type="button" value="ㅡ" onclick="Operator('-')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="btncalculatrice" type="button" value="1" onclick="numInsert(1)">
+                </td>
+                <td>
+                    <input class="btncalculatrice" type="button" value="2" onclick="numInsert(2)">
+                </td>
+                <td>
+                    <input class="btncalculatrice" type="button" value="3" onclick="numInsert(3)">
+                </td>
+                <td>
+                    <input class="btncalculatriceoper" type="button" value="+" onclick="Operator('+')">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="btncalculatrice0" type="button" value="0" onclick="numInsert(0)">
+                </td>
+                <td>
+                    <input class="btncalculatrice" type="button" value="," onclick="numInsert('.')">
+                </td>
+                <td>
+                    <input class="btncalculatriceoper" type="button" value="=" onclick="calcul()">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
