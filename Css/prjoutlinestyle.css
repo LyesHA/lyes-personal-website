@@ -1,0 +1,132 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree');
+html,body{
+    height: 100%;
+    width: 100%;
+font-family: 'Bai Jamjuree', sans-serif;
+}
+    .navbar {
+    background-color: black !important;
+    color: black !important;
+    padding: .8rem;
+}
+    .nav-link{
+        font-size: 1.1em
+    }
+    .navbar .navbar-brand {
+        color:#FF4912 !important;
+        font-weight: 700;
+        font-size:1.5rem;
+    }
+    .fa-code{
+        font-size: 1.5rem;
+        color:#FF4912!important;
+    }
+    .navbar .navbar-nav li {
+        color:white!important;
+        padding-right: 40px;
+    }   
+    .imagestyle {
+        height: 700px;
+    }
+    .navbar .navbar-nav .dropdown-menu li {
+        background-color: white;
+    }
+    .navbar .navbar-nav .dropdown-menu li a{
+        color:black!important;
+        font-weight: bold;
+    }
+    .carousel-indicators{
+        position: fixed;
+    }
+    .carousel-caption h1{
+        font-size: 500%;
+        text-shadow: 1px 1px 10px;
+        padding-bottom: 1rem;
+        color:red!important;
+    }
+    .carousel-caption h2{
+        font-size: 250%;
+        text-shadow: 1px 1px 10px;
+        text-transform: uppercase;
+        color:#008CFF!important;
+        font-weight:bold;
+    }
+    .img-fluid{
+    height: 470px;
+    width : 700px;
+    border-radius: 40px;
+    border-color:#CBCBCB;
+    border:2px solid;
+    }
+    #txtparagraph{
+    text-align: justify;
+    text-justify: inter-word;
+    }
+    .tabexamens{
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+    }
+    footer{
+        background-color: #3f3f3f!important;
+        color:#d5d5d5!important;
+        padding-top: 2rem;
+    }
+    hr.light{
+        border-top: 1px solid #d5d5d5!important;
+        width:50%;
+        margin-top: .8rem;
+        margin-bottom: 1rem;
+    } 
+    hr.light-100{
+        border-top: 1px solid #d5d5d5!important;
+        width:100%;
+        margin-top: .8rem;
+        margin-bottom: 1rem;
+    }
+    .padding{
+        padding-bottom: 1rem;
+    }
+    .mapouter{
+        text-align:right;
+        height:333px;
+        width:325px;
+        margin-left: 50px;
+    }
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:333px;
+        width:325px;
+    }
+    .fab{
+        font-size: 8em;
+        margin: 1rem;
+    }
+    .fa-html5{
+        color:#FF4D00;
+    }
+    .fa-css3-alt{
+        color:#1981FF;
+    }
+    .fa-js{
+        color:#FFC200;      
+    }
+    .imgcours{
+            height: 500px;
+    }
+    #coursid{
+        max-height: 30px;
+        text-align: center;
+    }
+    .hrclass{
+        width:52%;
+        border-top: 3px solid #B50DFF!important;
+    }
+    .rounded-circle{
+        height: 370px;
+        width : 500px;
+        border-radius: 40px;
+        border-color:#CBCBCB;
+        border:2px solid;
+        }

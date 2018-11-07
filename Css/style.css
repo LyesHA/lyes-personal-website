@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree');
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 html,body{
     height: 100%;
     width: 100%;
-    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Bai Jamjuree', sans-serif;
 
 }
 
@@ -15,7 +15,7 @@ html,body{
 }
 
 .navbar .navbar-nav li {
-    color:white!important;
+    color:#6957FF!important;
     padding-right: 40px;
     padding-right: 40px;
     margin-right: 20px;
@@ -26,15 +26,14 @@ html,body{
     color: white!important;
 }
 .carousel-caption{
-    text-align: center;
+    text-align: left;
     top:280px;
     bottom: auto;   
 }
 .btnDesc{
     margin-right:20px;
     display: inline-block;
-    background-color: #3D2457!important;
-}
+    }
 .divStyle{
     margin-top: 80px;
 }
@@ -47,10 +46,10 @@ html,body{
 }
 
 .btnCarouselStyle{
-    width:160px;
     margin-right: 20px;
-    border-color:gray;
-    border-width: 2px;
+    border-color:white;
+    border-width: 3px;
+    vertical-align: middle;
     height:50px;
 }
 
