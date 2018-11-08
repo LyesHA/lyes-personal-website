@@ -117,3 +117,10 @@ html,body{
 .chgcolor{
     background-color: #6500FF!important;
 }
+
+.divbtnresume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}

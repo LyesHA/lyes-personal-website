@@ -25,3 +25,10 @@ $("#btnExtra").click(function() {
         scrollTop: $("#divExt").offset().top
     }, 2000);
 });
+
+$("#btnResume").click(function() {
+    
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#divResume").offset().top
+    }, 2000);
+});

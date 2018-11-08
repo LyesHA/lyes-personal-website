@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="Css/style.css" rel="stylesheet">
 
-    <title>Lyes webSite</title>
+    <title>Lyes Hadj Aissa</title>
 </head>
 
 <body>
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-sm fixed-top">
-
+        <button type="button" id="btnResume" class="btn btn-outline-light btn-lg navbar-brand btnCarouselStyle">
+            <i class="fa fa-download" aria-hidden="true"></i>Download resume</button>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,7 +29,7 @@
             <ul class="navbar-nav mx-auto">
 
                 <li class="nav-item">
-                    <a class="nav-link "  href="index.html">About</a>
+                    <a class="nav-link " href="index.html">About</a>
                 </li>
 
                 <li class="nav-item">
@@ -38,8 +39,11 @@
                 <li class="nav-item active">
                     <a class="nav-link active" href="">Resume</a>
                 </li>
+
             </ul>
+
         </div>
+
     </nav>
 
     <!--image-->
@@ -50,30 +54,32 @@
                 <img class="d-block w-100 imagestyle " src="Pictures/resumepic.jpg" alt="First slide">
                 <div id="btn" class="carousel-caption" style="text-align: center;">
                     <br><br><br><br><br><br><br><br>
-                    <button id="btnEduc"  type="button" class="btn btn-outline-light btn-lg btnCarouselStyle">Eduaction</button>
-                    <button id="btnExp" type="button" class="btn btn-outline-light btn-lg btnCarouselStyle">Experience</button> 
-                    <button id="btnSkills" type="button" class="btn btn-outline-light btn-lg btnCarouselStyle">Skills & Languages</button>                    
-                    <button id="btnExtra" type="button" class="btn btn-outline-light btn-lg btnCarouselStyle">Extracurricular activities</button>                    
+                    <button id="btnEduc" type="button" class="btn btn-outline-light btn-lg btnCarouselStyle">Eduaction</button>
+                    <button id="btnExp" type="button" class="btn btn-outline-light btn-lg btnCarouselStyle">Experience</button>
+                    <button id="btnSkills" type="button" class="btn btn-outline-light btn-lg btnCarouselStyle">Skills &
+                        Languages</button>
+                    <button id="btnExtra" type="button" class="btn btn-outline-light btn-lg btnCarouselStyle">Extracurricular
+                        activities</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!--About me Section-->
+    <!--Skills, Education Section-->
     <div class="jumbotron">
         <div class="container">
 
 
             <div class="row">
-                <div id ="divEduc" class="col-lg-6 divStyle">
+                <div id="divEduc" class="col-lg-6 divStyle">
                     <h2 class="titleStyle">Education</h2>
                     <hr class="hrStyle">
                     <strong>2017-Present</strong><br>
-                    <p >LaSalle College – Montreal, QC, Canada
+                    <p>LaSalle College – Montreal, QC, Canada
                         <br>Diploma of College Studies; Computer Science Technology - Programming
                     </p>
                 </div>
-                <div id ="divExp" class="col-lg-6 divStyle">
+                <div id="divExp" class="col-lg-6 divStyle">
                     <h2 class="titleStyle">Experience</h2>
                     <hr class="hrStyle">
                     <strong>Sept 2018-Present</strong><br>
@@ -87,7 +93,7 @@
                     </p>
                     <br><br>
                 </div>
-                <div id ="divSkills" class="col-lg-12 divStyle">
+                <div id="divSkills" class="col-lg-12 divStyle">
                     <h2 class="titleStyle">Skills & Languages</h2>
                     <hr class="hrStyle">
                     <table>
@@ -194,9 +200,11 @@
                             <td colspan="2">
                                 <br>
                                 <hr style="width:200px;margin: 0px;">
+                                <br>
                             </td>
                         </tr>
                         <tr>
+
                             <td class="coltitle">
                                 English
                             </td>
@@ -221,7 +229,7 @@
                     </table>
 
                 </div>
-                
+
                 <div id="divExt" class="col-lg-4 divStyle">
                     <br><br>
                     <h2 class="titleStyle">Volunteer Experience</h2>
@@ -256,8 +264,23 @@
                         <li class="list-group-item list-group-item-success">Video Games</li>
                         <li class="list-group-item list-group-item-success">Traveling</li>
                         <li class="list-group-item list-group-item-success">Swimming</li>
-                      </ul>
-                      
+                    </ul>
+
+                </div>
+                <div id="divResume" class="col-lg-12 divStyle">
+                    <br><br>
+                    <h2 class="titleStyle">Download my CV ?</h2>
+                    <hr class="hrStyle">
+                    <div class="divbtnresume">
+                        <a href="ResumeLyesHadjAissa_Français.pdf" target="_blank" download>
+                            <button type="button" class="btn btn-outline-success btn-lg" style="width: 150px;">
+                                <i class="fa fa-download" aria-hidden="true"></i>Français</button>
+                        </a>
+                        <a href="ResumeLyesHadjAissa_English.pdf" target="_blank" download>
+                        <button type="button" class="btn btn-outline-success btn-lg" style="margin-left: 10px; width: 150px;">
+                            <i class="fa fa-download" aria-hidden="true"></i>English</button>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -308,8 +331,8 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
