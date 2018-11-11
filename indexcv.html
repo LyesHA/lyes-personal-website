@@ -17,9 +17,7 @@
 
 <body>
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-sm fixed-top">
-        <button type="button" id="btnResume" class="btn btn-outline-light btn-lg navbar-brand btnCarouselStyle">
-            <i class="fa fa-download" aria-hidden="true"></i>Download resume</button>
+    <nav class="navbar  navbar-expand-sm fixed-top navbar-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -52,19 +50,42 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100 imagestyle " src="Pictures/resumepic.jpg" alt="First slide">
-                <div id="btn" class="carousel-caption" style="text-align: center;">
-                    <br><br><br><br><br><br><br><br>
-                    <button id="btnEduc" type="button" class="btn btn-outline-light btn-lg btnCarouselStyle">Eduaction</button>
-                    <button id="btnExp" type="button" class="btn btn-outline-light btn-lg btnCarouselStyle">Experience</button>
-                    <button id="btnSkills" type="button" class="btn btn-outline-light btn-lg btnCarouselStyle">Skills &
-                        Languages</button>
-                    <button id="btnExtra" type="button" class="btn btn-outline-light btn-lg btnCarouselStyle">Extracurricular
-                        activities</button>
+                <div id="btn" class="carousel-caption d-none d-sm-block	">
+                    <h3 class="display-3">My CV</h3>
+                    <h2>WHAT I BRING TO THE TABLE</h2>
+                    <button type="button" id="btnResume" class="btn btn-outline-light btn-lg btnCarouselStyle d-none d-md-block">
+                        <i class="fa fa-download" aria-hidden="true"></i>Download Resume</button>
+            
+                     
                 </div>
             </div>
         </div>
     </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-none d-none d-lg-block">
 
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mx-auto">
+
+                <li class="nav-item">
+                    <button id="btnEduc" type="button" class="btn btn-outline-light btn-lg btnCarouselStyle">Eduaction</button>
+                </li>
+
+                <li class="nav-item">
+                    <button id="btnExp" type="button" class="btn btn-outline-light btn-lg btnCarouselStyle">Experience</button>
+                </li>
+
+                <li class="nav-item">
+                    <button id="btnSkills" type="button" class="btn btn-outline-light btn-lg btnCarouselStyle">Skills & Languages</button>
+                </li>
+                <li class="nav-item">
+                    <button id="btnExtra" type="button" class="btn btn-outline-light btn-lg btnCarouselStyle">Extracurricular
+                        Activities</button>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
     <!--Skills, Education Section-->
     <div class="jumbotron">
         <div class="container">
@@ -260,24 +281,24 @@
                     <h2 class="titleStyle">Interests</h2>
                     <hr class="hrStyle">
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item list-group-item-success">Soccer</li>
-                        <li class="list-group-item list-group-item-success">Video Games</li>
-                        <li class="list-group-item list-group-item-success">Traveling</li>
-                        <li class="list-group-item list-group-item-success">Swimming</li>
+                        <li class="list-group-item list-group-item-action">Soccer</li>
+                        <li class="list-group-item list-group-item-action">Video Games</li>
+                        <li class="list-group-item list-group-item-action">Traveling</li>
+                        <li class="list-group-item list-group-item-action">Swimming</li>
                     </ul>
 
                 </div>
                 <div id="divResume" class="col-lg-12 divStyle">
                     <br><br>
-                    <h2 class="titleStyle">Download my CV ?</h2>
+                    <h2 class="titleStyle">Download My CV ?</h2>
                     <hr class="hrStyle">
                     <div class="divbtnresume">
                         <a href="ResumeLyesHadjAissa_Français.pdf" target="_blank" download>
-                            <button type="button" class="btn btn-outline-success btn-lg" style="width: 150px;">
+                            <button type="button" class="btn btn-outline-dark btn-lg" style="width: 150px;">
                                 <i class="fa fa-download" aria-hidden="true"></i>Français</button>
                         </a>
                         <a href="ResumeLyesHadjAissa_English.pdf" target="_blank" download>
-                        <button type="button" class="btn btn-outline-success btn-lg" style="margin-left: 10px; width: 150px;">
+                        <button type="button" class="btn btn-outline-dark btn-lg" style="margin-left: 10px; width: 150px;">
                             <i class="fa fa-download" aria-hidden="true"></i>English</button>
                         </a>
                     </div>

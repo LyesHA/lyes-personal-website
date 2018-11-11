@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 html,body{
     height: 100%;
     width: 100%;
-    font-family: 'Bai Jamjuree', sans-serif;
-
+    font-family: 'Roboto Slab', serif;
+    
 }
 
 .navbar {  
@@ -20,16 +20,11 @@ html,body{
     padding-right: 40px;
     margin-right: 20px;
     font-size: 1.2rem;
-    
 }  
 .navbar .navbar-nav li a {
     color: white!important;
 }
-.carousel-caption{
-    text-align: left;
-    top:280px;
-    bottom: auto;   
-}
+
 .btnDesc{
     margin-right:20px;
     display: inline-block;
@@ -44,14 +39,21 @@ html,body{
     border:10px solid;
     border-color: white;
 }
-
+.carousel-caption {
+    width: 550px;
+    left: 15%;
+    top: 50% !important;
+    transform: translateY(-50%);
+    text-align: left;
+    bottom: initial;
+    }  
 .btnCarouselStyle{
     margin-right: 20px;
     border-color:white;
     border-width: 3px;
     vertical-align: middle;
-    height:50px;
-}
+    height:auto;
+    }
 
 .navbar .navbar-nav .dropdown-menu {
     background: transparent;
@@ -64,7 +66,7 @@ html,body{
 
 .imagestyle {
     margin-top: -45px;
-    height: 800px;
+    max-height: 800px;
 }
 .tabStyle{
     width:500px;
@@ -93,7 +95,7 @@ html,body{
 }
 
 .titleStyle{
-    color:#744DFF;
+    color:black;
 }
 .hrStyle{
     text-align: left!important;
@@ -105,7 +107,6 @@ html,body{
 .progress{
     height: 10px;
     background-color: white;
-    width:800px;
 }
 .coltitle{
     width:200px;  
@@ -123,4 +124,8 @@ html,body{
     align-items: center;
     justify-content: center;
   
+    
+}
+.list-group{
+    width:250px;
 }
