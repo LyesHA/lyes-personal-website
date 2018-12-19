@@ -38,6 +38,15 @@ html,body{
     border-radius: 50%;
     border:10px solid;
     border-color: white;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 500px) {
+    /* start of phone styles */
+    /* It's possible to hide the image if the screen becomes too small */
+    .img-fluid {
+      width: 250px;
+      height: 250px;
+    }
 }
 .carousel-caption {
     width: 550px;
@@ -128,4 +137,7 @@ html,body{
 }
 .list-group{
     width:250px;
+}
+.card{
+    margin-bottom: 20px;
 }
